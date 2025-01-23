@@ -5,16 +5,18 @@ A standard that all modern digital healthcare apps should stand to.
 Currently building this standard, but here are some initial thoughts:
 
 1. Web first.
-2. Python based as much as possible (so people on have to learn one language, at least initially).
-3. Authentication and authorisation.
-4. Configurable pathways (for the disease / company wanting the app).
-5. DevSecRegOps are the core.
-6. Full unit testing and integration testing.
-7. Interoperability with other systems - perhaps we will use openEHR (or FHIR).
-8. Documentation in code (docstrings).
-9. Typing (mypy).
-10. Cybersecurity (black)
-11. Open source all the way baby.
+2. Backend - python with django (framework), black (formatter) / bandit (security) / mypy (typing).
+3. Frontend - typescript with react (framework) / eslint (linter) / prettier (formatter).
+4. Git version control.
+5. Authentication and authorisation.
+6. Configurable pathways (for the disease / company wanting the app).
+7. DevSecRegOps (Development Security Regulation and Operations) are the core.
+8. Full unit testing and integration testing.
+9. Interoperability with other systems - perhaps we will use openEHR (or FHIR).
+10. Documentation in code (docstrings and typedoc).
+11. Typing (mypy).
+12. Cybersecurity (black)
+13. Open source all the way baby.
 
 ## Other considerations
 
@@ -25,3 +27,5 @@ Currently building this standard, but here are some initial thoughts:
 5. Issue templates
 6. Pull request templates
 7. Security policy
+8. The software buyer owns the open source licence (MIT preferred), but Let's Do Digital house the code on Github.
+9. Potentially ReactNative for mobile first devices.
