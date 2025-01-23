@@ -15,3 +15,13 @@ Currently building this standard, but here are some initial thoughts:
 9. Typing (mypy).
 10. Cybersecurity (black)
 11. Open source all the way baby.
+
+## Other considerations
+
+1. CI/CD
+2. OSS licence (MIT)
+3. Code of conduct
+4. Contributing guidelines
+5. Issue templates
+6. Pull request templates
+7. Security policy
