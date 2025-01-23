@@ -5,8 +5,8 @@ A standard that all modern digital healthcare apps should stand to.
 Currently building this standard, but here are some initial thoughts:
 
 1. Web first.
-2. Backend - python with django (framework), black (formatter) / bandit (security) / mypy (typing).
-3. Frontend - typescript with react (framework) / eslint (linter) / prettier (formatter).
+2. Backend - python with django (framework), poetry (package management) / black (formatter) / bandit (security) / mypy (typing).
+3. Frontend - typescript with react (framework) npm/yarn (package management) / eslint (linter) / prettier (formatter).
 4. Git version control.
 5. Authentication and authorisation.
 6. Configurable pathways (for the disease / company wanting the app).
