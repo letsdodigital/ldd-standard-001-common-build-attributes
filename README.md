@@ -29,3 +29,5 @@ Currently building this standard, but here are some initial thoughts:
 7. Security policy
 8. The software buyer owns the open source licence (MIT preferred), but Let's Do Digital house the code on Github.
 9. Potentially ReactNative for mobile first devices.
+10. Perhaps a developer portal or marketplace for modules
+11. We need a PR equivalent clinical safety sign off process (ask someone else who was not involved in the code to review it).
