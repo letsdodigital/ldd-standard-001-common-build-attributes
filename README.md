@@ -4,6 +4,8 @@ A standard that all modern digital healthcare apps should stand to. Initial thou
 
 Currently building this standard, but here are some initial thoughts:
 
+![A possible stack](/media/django-react.png)
+
 1. Web first.
 2. Backend - python with django (framework), poetry (package management) / black (formatter) / bandit (security) / mypy (typing).
 3. Frontend - typescript with react (framework) npm/yarn (package management) / eslint (linter) / prettier (formatter).
@@ -39,6 +41,8 @@ Currently building this standard, but here are some initial thoughts:
 
 - To separate data access further from the frontend, a database(or other)/django(or fastAPI)/Nextjs/React.typescript stack could be used.
 
+![2nd possible stack](/media/django-react-react.png)
+
 ## Notes
 
 - We would like to build a system that enables people will less programming skills to pick up, tinker with and use. This means we have to separate the more complex components of the system into the base. The modules that are added as needed on top of this give the end-user (clinician, admin person or patient/family member) the functionality that they need.
@@ -69,3 +73,9 @@ Currently building this standard, but here are some initial thoughts:
 8. Requests and referrals
 9. ePMA for prescribing
 10. Messaging system (clinician-admin-patient)
+
+## Logo
+
+Potential logo idea
+
+<img src="/media/logo.png" alt="Logo" style="max-height: 100px;">
